@@ -3,6 +3,7 @@ import Layout from '../components/Layout'
 import hero from '../assets/images/vactor/about-hero.png'
 import welcome from '../assets/images/vactor/welcome-ligh.png'
 import contact_vector from '../assets/images/vactor/contact-vactor.png'
+import Contact from "../components/Contact"
 import AOS from 'aos';
 // import "../assets/css/bootstrap.min.css"
 // import "../assets/css/normalize.css"
@@ -116,50 +117,7 @@ const About = () => {
             <div className="container">
               <div className="row">
                 <div className="col-lg-6">
-                  <div className="contact_from_area" data-aos="fade-down-right">
-                    <h3>Send Us a Message</h3>
-                    <div className="contact_from_input">
-                      <form action>
-                        <div className="row">
-                          {/* Single input */}
-                          <div className="col-12">
-                            <div className="single_input">
-                              <input type="text" placeholder="Full Name" />
-                            </div>
-                          </div>
-                          {/* Single input */}
-                          {/* Single input */}
-                          <div className="col-lg-6">
-                            <div className="single_input">
-                              <input type="text" placeholder="Phone" />
-                            </div>
-                          </div>
-                          {/* Single input */}
-                          {/* Single input */}
-                          <div className="col-lg-6">
-                            <div className="single_input">
-                              <input type="email" placeholder="Email" />
-                            </div>
-                          </div>
-                          {/* Single input */}
-                          {/* Single input */}
-                          <div className="col-12">
-                            <div className="single_input">
-                              <textarea name id placeholder="Message" defaultValue={""} />
-                            </div>
-                          </div>
-                          {/* Single input */}
-                          {/* Submit Button */}
-                          <div className="col-12">
-                            <div className="Submit_button">
-                              <button type="submit">SEND</button>
-                            </div>
-                          </div>
-                          {/* Submit Button */}
-                        </div>
-                      </form>
-                    </div>
-                  </div>
+                    <Contact/>
                 </div>
                 <div className="col-lg-6">
                   <div className="contact_image" data-aos="fade-down-left">
